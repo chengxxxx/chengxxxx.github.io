@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chengxxxx.github.io</id>
     <title>chengX</title>
-    <updated>2020-03-19T05:46:54.924Z</updated>
+    <updated>2020-03-19T05:55:18.885Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chengxxxx.github.io"/>
     <link rel="self" href="https://chengxxxx.github.io/atom.xml"/>
@@ -15,23 +15,6 @@
         <link href="https://chengxxxx.github.io/post/meterpreter-jin-cheng-qian-yi/">
         </link>
         <updated>2020-03-19T05:13:26.000Z</updated>
-        <content type="html"><![CDATA[<p>自动迁移<br>
-set autorunscript migrate -n explorer.exe<br>
-set AutoRunscript migrate -f</p>
-<p>自动批量执行<br>
-set AutoRunScript post/multi/manage/multi_post MACRO=/root/autoruncommands.rc<br>
-set AutoRunScript multi_console_command -r /root/autoruncommands.rc</p>
-<pre><code>#autoruncommands.rc
-run post/windows/manage/migrate
-run post/windows/manage/killfw
-run post/windows/gather/checkvm
-</code></pre>
-<p>手动迁移<br>
-migrate -N 进程名<br>
-migrate -P 进程编号</p>
-<p>其他方法<br>
-show advanced           参考：<a href="https://www.hackingarticles.in/hiding-shell-using-prependmigrate-metasploit/">Hiding Shell using PrependMigrate -Metasploit</a></p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[This program cannot be run in DOS mode.]]></title>
@@ -39,9 +22,5 @@ show advanced           参考：<a href="https://www.hackingarticles.in/hiding-
         <link href="https://chengxxxx.github.io/post/this-program-cannot-be-run-in-dos-mode/">
         </link>
         <updated>2020-03-17T16:28:33.000Z</updated>
-        <content type="html"><![CDATA[<p>问题：通过ftp上传的exe执行时提示“This program cannot be run in DOS mode.”</p>
-<p>解决方法：检查ftp传输模式，设置成binary模式上传即可</p>
-<p>参考：https://security.stackexchange.com/questions/133946/this-program-can-not-be-run-in-dos-mode/133966</p>
-]]></content>
     </entry>
 </feed>
